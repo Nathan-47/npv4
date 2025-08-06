@@ -24,6 +24,20 @@ h1 {
     font-weight: 900;
     color: #fafafa;
 }
+.bg-white {
+  background-color: transparent !important;
+  width: 35%;
+  margin: auto;
+}
+.width-body {
+  width: 60% !important;
+  margin: 30px auto;
+}
+.a-link {
+  background: #005B8F;
+  padding: 0.2em;
+  border-radius: 5px;
+}
 
 
 /* Navbar */
@@ -308,4 +322,89 @@ nav ul a {
   padding-left: 2.5rem !important;
   padding-right: 2.5rem !important;
 }
+}
+
+
+/* Landing */
+.my-20 {
+  margin-bottom: 8rem ;
+}
+.hero-intro {
+  font-family: 'Archivo';
+  color: #ffffff;
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-top: 1em;
+}
+#hero-job {
+  font-family: 'Archivo';
+  font-size: 1.5rem;
+}
+.feature-image {
+  width: 100%;
+  border-radius: 35px;
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+.feature-image:hover {
+  opacity: 100%;
+  transition: 0.3s;
+}
+.feature-caption {
+  font-family: 'Archivo';
+  font-style: italic;
+}
+.feature-bio {
+  font-style: italic;
+}
+.heading-two {
+  font-family: 'Archivo';
+  color: #fafafa;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1800px) {
+.bg-white {width: 40% !important;}
+}
+
+@media screen and (max-width: 1650px) {
+.bg-white {width: 45% !important;}
+}
+
+@media screen and (max-width: 1550px) {
+.bg-white {width: 50% !important;}
+}
+
+@media screen and (max-width: 1340px) {
+.bg-white {width: 60% !important;}
+}
+
+@media screen and (max-width: 1024px) {
+  .bg-white {width: 65% !important;}
+  .my-20 {
+    margin-top: 3rem !important;
+    margin-bottom: 6em !important;
+  }
+  .my-10 {margin-top: 1rem !important;}
+  .mt-20 {margin-top: 8rem !important;}
+}
+
+@media screen and (max-width: 850px) {
+  .bg-white {width: 70% !important;}
+  .heading-two {font-size: 1.3rem;}
+}
+
+@media screen and (max-width: 600px) {
+  .hero-intro {font-size: 1.8rem;}
+  #hero-job {font-size: 1.2rem;}
+  .grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+  .my-20 {margin-top: 4rem !important;}
+}
+
+@media screen and (max-width: 500px) {
+  .bg-white {width: 80% !important;}
+  .my-20 {margin-top: 3rem !important;}
 }
