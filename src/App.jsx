@@ -2,12 +2,14 @@ import './index.css';
 import {createBrowserRouter, Route, createRoutesFromElements, RouterProvider} from 'react-router-dom';
 // import Navbar from './components/navbar';
 import Navbar from './layouts/navbar';
+import Landing from './pages/landing';
 
 function App() {
 
     const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Navbar />}>  
+      <Route path="/" element={<Navbar />}>
+      <Route index element={<Landing />} />
 
       {/* project pages */}
 
