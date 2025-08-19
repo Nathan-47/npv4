@@ -1,8 +1,8 @@
 import './index.css';
 import {createBrowserRouter, Route, createRoutesFromElements, RouterProvider} from 'react-router-dom';
-// import Navbar from './components/navbar';
 import Navbar from './layouts/navbar';
 import Landing from './pages/landing';
+import Projects from './pages/projects';
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       <Route index element={<Landing />} />
 
       {/* project pages */}
-
+      <Route path='/projects' element={<Projects />}></Route>
 
       {/* 404 page link */}
       </Route>
