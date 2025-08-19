@@ -37,9 +37,16 @@ h2 {
   margin: 30px auto;
 }
 .a-link {
-  background: #005B8F;
+  background: #17597d;
   padding: 0.2em;
   border-radius: 5px;
+  color: #fafafa;
+  font-weight: 700;
+}
+.a-link:hover {
+  background: #fafafa;
+  color: #17597d;
+  transition: 0.2s ease-in-out;
 }
 
 
@@ -427,3 +434,7 @@ h1 {
   .bg-white {width: 80% !important;}
   .my-20 {margin-top: 3rem !important;}
 }
+
+
+/* projects */
+.cards-wrapper {margin-top: 3em;}
