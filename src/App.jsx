@@ -3,6 +3,8 @@ import {createBrowserRouter, Route, createRoutesFromElements, RouterProvider} fr
 import Navbar from './layouts/navbar';
 import Landing from './pages/landing';
 import Projects from './pages/projects';
+import Marvelplay from './pages/marvelplay';
+
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
 
       {/* project pages */}
       <Route path='/projects' element={<Projects />}></Route>
+      <Route path='/marvelplay' element={<Marvelplay />}></Route>
 
       {/* 404 page link */}
       </Route>
