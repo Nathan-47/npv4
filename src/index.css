@@ -438,3 +438,20 @@ h1 {
 
 /* projects */
 .cards-wrapper {margin-top: 3em;}
+.project-title {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+.pill-2 {
+  display: inline;
+  background: #c3c5ca;
+  color: #292929;
+  border-radius: 100px;
+  padding: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 0.8rem;
+  margin-right: 5px;
+  font-weight: 700;
+}
+.project-text {margin-top: 1em;}
