@@ -442,6 +442,11 @@ h1 {
   margin-top: 1em;
   margin-bottom: 1.5em;
 }
+.project-heading, .project-btn {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
 .pill-2 {
   display: inline;
   background: #c3c5ca;
@@ -455,3 +460,40 @@ h1 {
   font-weight: 700;
 }
 .project-text {margin-top: 1em;}
+.project-btn {
+  margin: 2em auto;
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  font-family: 'Archivo';
+  font-weight: 700;
+}
+.git-repo {
+  margin: 4em auto;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.git-icon {
+  margin: auto;
+  color: #ffffff;
+  font-size: 2.5em;
+}
+.project-btn:hover {
+  background: none;
+  border: 2px solid #fafafa;
+  color: #fafafa;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.screenshot-thumb {margin-top: 3em;}
+.project-screenshots {margin-bottom: 6em;}
+
+@media screen and (max-width: 768px) {
+.grid-cols-3 {grid-template-columns: repeat(1, minmax(0, 1fr));}
+}
+
+@media screen and (max-width: 600px) {
+.project-btn {width: 100%;}
+}
