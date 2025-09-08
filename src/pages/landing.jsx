@@ -38,7 +38,7 @@ const Landing = () => {
 
         <div className='job-desc'>2025 - PRESENT</div>
          <div className="col-span-2">
-          <p className='job-title'>Accessibility Developer | CWW Mind</p>
+          <p className='job-title'>Volunteer Accessibility Developer | CWW Mind</p>
           <br />
           <p className='job-content'>Using tools such as Skilltide and Lighthouse to help increase WCAG accessibility scores across the website.</p>
           <span className="pill">Wordpress</span>
