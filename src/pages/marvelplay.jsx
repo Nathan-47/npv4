@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa6";
-import marvel1 from "../images/marvel_screenshot1.png";
+import marvel1 from "../images/marvel/marvel_screenshot1.png";
+import marvel2 from "../images/marvel/marvel_screenshot2.png";
 
 const marvelplay = () => {
     return (
@@ -19,7 +20,7 @@ const marvelplay = () => {
 
             <div className="project-screenshots">
                 <img className="screenshot-thumb" src={marvel1} alt="" />
-                <img className="screenshot-thumb" src={marvel1} alt="" />
+                <img className="screenshot-thumb" src={marvel2} alt="" />
             </div>
         </div>
     )
