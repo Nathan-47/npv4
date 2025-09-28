@@ -18,8 +18,8 @@ const socquiz = () => {
             </div>
 
             <div className="project-screenshots">
-                <img className="screenshot-thumb" src={socimg1} alt="" />
-                <img className="screenshot-thumb" src={socimg2} alt="" />
+                <a href={socimg1} target="_blank" rel="noopener noreferrer"><img className="screenshot-thumb" src={socimg1} alt="Shows the first question on the finder with both answers available to choose." /></a>
+                <a href={socimg2} target="_blank" rel="noopener noreferrer"><img className="screenshot-thumb" src={socimg2} alt="Shows all General Societies that can be joined based off the answers given from tool finder" /></a>
             </div>
         </div>
     )

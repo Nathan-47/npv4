@@ -18,8 +18,8 @@ const fitrquest = () => {
             </div>
 
             <div className="project-screenshots">
-                <img className="screenshot-thumb" src={fitimg1} alt="Fitrquest quiz start screen that begins with I am followed by two answers 15-44 or 45+" />
-                <img className="screenshot-thumb" src={fitimg2} alt="Completed quiz page path that is displaying all information on Powerlifting" />
+                <a href={fitimg1} target="_blank" rel="noopener noreferrer"><img className="screenshot-thumb" src={fitimg1} alt="Fitrquest quiz start screen that begins with I am followed by two answers 15-44 or 45+" /></a>
+                <a href={fitimg2} target="_blank" rel="noopener noreferrer"><img className="screenshot-thumb" src={fitimg2} alt="Completed quiz page path that is displaying all information on Powerlifting" /></a>
             </div>
         </div>
     )

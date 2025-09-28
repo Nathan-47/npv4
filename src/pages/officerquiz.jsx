@@ -18,8 +18,8 @@ const fitrquest = () => {
             </div>
 
             <div className="project-screenshots">
-                <img className="screenshot-thumb" src={offimg1} alt="" />
-                <img className="screenshot-thumb" src={offimg2} alt="" />
+                <a href={offimg1} target="_blank" rel="noopener noreferrer"><img className="screenshot-thumb" src={offimg1} alt="Question 2 of quiz that gives user 5 answer options" /></a>
+                <a href={offimg2} target="_blank" rel="noopener noreferrer"><img className="screenshot-thumb" src={offimg2} alt="Quiz result page that displays the user given role based off the quiz answers given." /></a>
             </div>
         </div>
     )
