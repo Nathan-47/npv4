@@ -8,7 +8,7 @@ const fitrquest = () => {
     return (
         <div className="bg-white">
             <h1 className="project-heading">BCUSU Officer Quiz</h1>
-            <Link to="https://nathan-47.github.io/officer-role-quiz/" target="_blank" rel="noopener noreferrer"><button className="project-btn">Demo</button></Link>
+            <Link className="project-btn" to="https://nathan-47.github.io/officer-role-quiz/" target="_blank" rel="noopener noreferrer">Demo</Link>
             <p className="!mt-16 text-white">
                 We wanted to engage students more interactively, so we created a quiz that uses their choices to determine which officer role best suits them. This way, they can confidently run for that role in the next officer election. The quiz helps remove the guesswork and provides students with a much more clearer idea of what role they fit best.
             </p>

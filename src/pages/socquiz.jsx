@@ -8,7 +8,7 @@ const socquiz = () => {
     return (
         <div className="bg-white">
             <h1 className="project-heading">Society Finder tool</h1>
-            <Link to="https://nathan-47.github.io/Societyquiz/" target="_blank" rel="noopener noreferrer"><button className="project-btn">Demo</button></Link>
+            <Link className="project-btn" to="https://nathan-47.github.io/Societyquiz/" target="_blank" rel="noopener noreferrer">Demo</Link>
             <p className="!mt-16 text-white">
                 Developed a quiz to help students discover which society best matches their interests. This tool enables students to identify suitable societies with confidence and reduces hesitation when deciding which to join at any point of their university life.
             </p>

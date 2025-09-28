@@ -7,7 +7,7 @@ const marvelplay = () => {
     return (
         <div className="bg-white">
             <h1 className="project-heading">Marvelplay</h1>
-            <Link to="https://nathan-47.github.io/marvel-vs/" target="_blank" rel="noopener noreferrer"><button className="project-btn">Demo</button></Link>
+            <Link className="project-btn"to="https://nathan-47.github.io/marvel-vs/" target="_blank" rel="noopener noreferrer">Demo</Link>
             <p className="!mt-16 text-white">
                 A 1v1 game where users battle using a default set of four Marvel hero characters against four Marvel villains in a turn-based system, similar to the classic Pokémon games. This project is built using JavaScript, and there’s more to come as the battle game will continue to evolve.
             </p>

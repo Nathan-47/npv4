@@ -8,13 +8,13 @@ const fitrquest = () => {
     return (
         <div className="bg-white">
             <h1 className="project-heading">FitrQuest</h1>
-            <Link to="https://fitrquest-frontend.onrender.com/" target="_blank" rel="noopener noreferrer"><button className="project-btn">Demo</button></Link>
+            <Link className="project-btn" to="https://fitrquest-frontend.onrender.com/" target="_blank" rel="noopener noreferrer">Demo</Link>
             <p className="!mt-16 text-white">
                 This project is designed to help users discover which sport best suits their fitness goals. It provides a personalised path that includes estimated calorie requirements, automatically curated meal plans, and training tips to keep users informed and motivated.
             </p>
 
             <div className="git-repo">
-                <Link to="https://github.com/Nathan-47/fitrquest" target="_blank" rel="noopener noreferrer"><FaGithub  className="git-icon" /><p>View Code</p></Link>
+                <Link to="https://github.com/Nathan-47/fitrquest" target="_blank" rel="noopener noreferrer"><FaGithub  className="git-icon" />View Code</Link>
             </div>
 
             <div className="project-screenshots">
