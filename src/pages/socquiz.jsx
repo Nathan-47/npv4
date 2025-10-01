@@ -14,7 +14,7 @@ const socquiz = () => {
             </p>
 
             <div className="git-repo">
-                <Link to="https://github.com/Nathan-47/Societyquiz" target="_blank" rel="noopener noreferrer"><FaGithub  className="git-icon" /><p>View Code</p></Link>
+                <FaGithub  className="git-icon" /><Link to="https://github.com/Nathan-47/Societyquiz" target="_blank" rel="noopener noreferrer">View Code</Link>
             </div>
 
             <div className="project-screenshots">
