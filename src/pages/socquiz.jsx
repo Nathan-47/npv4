@@ -25,7 +25,7 @@ const socquiz = () => {
                     </li>
                 </ul>
 
-                <img className="!mt-6 !mx-auto" src={socimg3} alt="" />
+                <img className="!mt-6 !mx-auto" src={socimg3} alt="URLSearchParams code snippet" />
             </div>
 
             <div className="future-section !mt-12">
