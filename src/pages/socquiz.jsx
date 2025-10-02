@@ -32,8 +32,8 @@ const socquiz = () => {
                 <h2 className="!mb-6"><u>Future Improvements</u></h2>
                 <ul className="list-disc list-inside !space-y-4 text-white">
                  <li>Once the user has completed their quiz and is given their suited societies category such as Sport, general insert etc, the tool could then calculate the users answers and give the percentage of how likely it matches to the users personality.</li>
-                </ul>-
-            </div>..
+                </ul>
+            </div>
 
             <div className="project-screenshots">
                 <a href={socimg1} target="_blank" rel="noopener noreferrer"><img className="screenshot-thumb" src={socimg1} alt="Shows the first question on the finder with both answers available to choose." /></a>
