@@ -17,9 +17,17 @@ const marvelserach = () => {
                 <Link to="https://github.com/Nathan-47/marvelalias-search" target="_blank" rel="noopener noreferrer"><FaGithub  className="git-icon" /><p>View Code</p></Link>
             </div>
 
+            <div className="future-section !mt-12">
+                <h2 className="!mb-6"><u>Future Improvements</u></h2>
+                    <ul className="list-disc list-inside !space-y-4 text-white">
+                        <li>While using the search, I noticed that users have to manually delete text using the backspace key, which can negatively impact user experience. This issue can be amended by implementing a clear button within the input box.</li>    
+                    </ul>
+            </div>
+
             <div className="project-screenshots">
-                <img className="screenshot-thumb" src={marimg1} alt="" />
-                <img className="screenshot-thumb" src={marimg2} alt="" />
+                <a href={marimg1} target="_blank" rel="noopener noreferrer"><img className="screenshot-thumb" src={marimg1} alt="card showing character called Venom's bio" /></a>
+
+                <a href={marimg2} target="_blank" rel="noopener noreferrer"><img className="screenshot-thumb" src={marimg2} alt="card showing character called Thor's bio" /></a>
             </div>
         </div>
     )
