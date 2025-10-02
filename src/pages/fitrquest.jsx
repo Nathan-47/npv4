@@ -22,16 +22,16 @@ const fitrquest = () => {
                 <ul className="list-disc list-inside !space-y-6 text-white">
                     <li>Using Postman to test URL routes was a first for me and made testing login and signup endpoints easy to see if they’re working and if any errors occur that affect user experience.</li>
 
-                    <li>JWT Tokens was a first for me also and I was intrigued on how it is used in applications. As I wanted to create a page for only signed up users this was perfect as JWT verifies indentities and protect routes.</li>
+                    <li>JWT Tokens was a first for me also and I was intrigued on how it is used in applications. As I wanted to create a page for only signed up users this was perfect as JWT verifies identities and protect routes.</li>
 
                     <li>Using AuthContext I learnt that it tracks authentication state across the app. Letting components check whether a user is logged in without passing props, making it an easier experience for me development wise.</li>
 
-                    <li>Building a MERN app MongoDB is imperitive and I learned how to use schemas to define structured fields like name, email, and password for login/signup.</li>
+                    <li>Building a MERN app MongoDB is imperative and I learned how to use schemas to define structured fields like name, email, and password for login/signup.</li>
                 </ul>
             </div>
 
             <div className="future-section !mt-12">
-                <h2 className="!mb-6"><u>Future Improvments</u></h2>
+                <h2 className="!mb-6"><u>Future Improvements</u></h2>
                 <ul className="list-disc list-inside !space-y-4 text-white">
                  <li>Regarding the schema I will look to apply rules such as required and unique to enforce data integrity and simplify management.</li>    
                  <li>Provide more questions to get a more refined/accurate end result</li>
