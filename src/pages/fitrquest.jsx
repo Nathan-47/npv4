@@ -10,7 +10,7 @@ const fitrquest = () => {
             <h1 className="project-heading">FitrQuest</h1>
             <Link className="project-btn" to="https://fitrquest-frontend.onrender.com/" target="_blank" rel="noopener noreferrer">Demo</Link>
             <p className="!mt-16 text-white">
-                This project is designed to help users discover which sport best suits their fitness goals. It provides a personalised path that includes estimated calorie requirements, automatically curated meal plans, and training tips to keep users informed and motivated.
+                This project helps users discover which sport best suits their fitness goals. It provides a personalized path with estimated calorie requirements, automatically curated meal plans, and training tips to keep users informed and motivated.
             </p>
 
             <div className="git-repo">
