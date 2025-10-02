@@ -3,7 +3,6 @@ import {createBrowserRouter, Route, createRoutesFromElements, RouterProvider} fr
 import Navbar from './layouts/navbar';
 import Landing from './pages/landing';
 import Projects from './pages/projects';
-import Marvelplay from './pages/marvelplay';
 import Fitrquest from './pages/fitrquest';
 import MarvelSearch from './pages/marvelsearch';
 import Officerquiz from './pages/officerquiz';
@@ -19,7 +18,6 @@ function App() {
 
       {/* project pages */}
       <Route path='/projects' element={<Projects />}></Route>
-      <Route path='/marvelplay' element={<Marvelplay />}></Route>
       <Route path='/fitrquest' element={<Fitrquest />}></Route>
       <Route path='/marvelapi' element={<MarvelSearch />}></Route>
       <Route path='/officerquiz' element={<Officerquiz />}></Route>
