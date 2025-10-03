@@ -7,6 +7,7 @@ import Fitrquest from './pages/fitrquest';
 import MarvelSearch from './pages/marvelsearch';
 import Officerquiz from './pages/officerquiz';
 import Socquiz from './pages/socquiz';
+import NoLink from './noLink';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route path='/socquiz' element={<Socquiz />}></Route>
 
       {/* 404 page link */}
+      <Route path="*" element={<NoLink />} />
       </Route>
     )
   )
