@@ -8,6 +8,7 @@ import MarvelSearch from './pages/marvelsearch';
 import Officerquiz from './pages/officerquiz';
 import Socquiz from './pages/socquiz';
 import NoLink from './noLink';
+import Blog from './pages/blog';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path='/marvelapi' element={<MarvelSearch />}></Route>
       <Route path='/officerquiz' element={<Officerquiz />}></Route>
       <Route path='/socquiz' element={<Socquiz />}></Route>
+      <Route path='/blog' element={<Blog />}></Route>
 
       {/* 404 page link */}
       <Route path="*" element={<NoLink />} />
