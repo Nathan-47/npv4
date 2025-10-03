@@ -437,7 +437,10 @@ h1 {
 
 
 /* projects */
-.cards-wrapper {margin-top: 3em;}
+.cards-wrapper {
+  margin-top: 3em;
+  margin-bottom: 10em;
+}
 .project-title {
   margin-top: 1em;
   margin-bottom: 1.5em;
@@ -489,6 +492,10 @@ h1 {
 }
 .screenshot-thumb {margin-top: 3em;}
 .project-screenshots {margin-bottom: 6em;}
+
+@media screen and (max-width: 1200px) {
+.grid-cols-3 {grid-template-columns: repeat(2, minmax(0, 1fr));}
+}
 
 @media screen and (max-width: 768px) {
 .grid-cols-3 {grid-template-columns: repeat(1, minmax(0, 1fr));}
