@@ -11,7 +11,7 @@ const Landing = () => {
           <h1>A Brummie that is passionate about building and creating digital magic using code.</h1>
 
           <p id="hero-job" className="mt-6 text-lg leading-8 text-gray-300">
-          Currently a Web Developer @ <a className="a-link" href="https://www.bcusu.com/">BCUSU</a>
+          Currently a Web Developer @ <a className="a-link" href="https://www.bcusu.com/" target="_blank">BCUSU</a>
           </p>
 
 
