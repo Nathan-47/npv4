@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa6";
-import socimg1 from "../images/socquiz/soc_screenshot1.png";
-import socimg2 from "../images/socquiz/soc_screenshot2.png";
-import socimg3 from "../images/socquiz/soc_snippet.png";
+import socimg1 from "../images/socquiz/soc_screenshot1.PNG";
+import socimg2 from "../images/socquiz/soc_screenshot2.PNG";
+import socimg3 from "../images/socquiz/soc_snippet.PNG";
 
 
 const socquiz = () => {

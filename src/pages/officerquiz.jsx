@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa6";
-import offimg1 from "../images/rolequiz/role_screenshot1.png";
-import offimg2 from "../images/rolequiz/role_screenshot2.png";
-import offimg3 from "../images/rolequiz/role_snippet.png";
+import offimg1 from "../images/rolequiz/role_screenshot1.PNG";
+import offimg2 from "../images/rolequiz/role_screenshot2.PNG";
+import offimg3 from "../images/rolequiz/role_snippet.PNG";
 
 
 const offquiz = () => {

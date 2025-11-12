@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa6";
-import fitimg1 from "../images/fitrquest/fitrquest_screenshot1.png"
-import fitimg2 from "../images/fitrquest/fitrquest_screenshot2.png"
+import fitimg1 from "../images/fitrquest/fitrquest_screenshot1.PNG";
+import fitimg2 from "../images/fitrquest/fitrquest_screenshot2.PNG";
 
 
 const fitrquest = () => {
