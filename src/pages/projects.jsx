@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import fithero from "../images/fitrquest/fitrquest_thumbnail.png";
+import fithero from "../images/fitrquest/fitrquest_thumbnail.PNG";
 import quizhero from "../images/rolequiz/role_thumbnail.PNG";
 import marvhero from "../images/marvel/marvelapi_thumbnail.png";
 import sochero from "../images/socquiz/soc_thumbnail.PNG"
