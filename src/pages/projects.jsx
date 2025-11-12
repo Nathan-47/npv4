@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import fithero from "../images/fitrquest/fitrquest_thumbnail.png";
-import quizhero from "../images/rolequiz/role_thumbnail.png";
+import quizhero from "../images/rolequiz/role_thumbnail.PNG";
 import marvhero from "../images/marvel/marvelapi_thumbnail.png";
-import sochero from "../images/socquiz/soc_thumbnail.png"
+import sochero from "../images/socquiz/soc_thumbnail.PNG"
 
 
 const projects = () => {
