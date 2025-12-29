@@ -9,6 +9,9 @@ const marvelserach = () => {
         <div className="bg-white">
             <h1 className="project-heading">Marvel Search</h1>
             <Link to="https://marvelalias.netlify.app/" target="_blank" rel="noopener noreferrer"><button className="project-btn">Demo</button></Link>
+
+            <p className="relative rounded-full px-3 py-1 !mt-12 text-sm/8 text-stone-950 bg-yellow-300 text-center">Unfortunately, the Marvel API servers are down indefinitely, so the demo will not work. 😔</p>
+
             <p className="!mt-16 text-white">
                 Search for any Marvel character within a database powered by Marvel.com. The selected character is displayed with their name, bio, and image retrieved through the API, complemented by minimal styling.
             </p>
