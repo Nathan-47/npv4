@@ -455,11 +455,11 @@ h1 {
   background: #c3c5ca;
   color: #292929;
   border-radius: 100px;
-  padding: 5px;
+  padding: 4px;
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 0.8rem;
-  margin-right: 5px;
+  font-size: 0.7rem;
+  margin-right: 3px;
   font-weight: 700;
 }
 .project-text {margin-top: 1em;}
@@ -495,6 +495,15 @@ h1 {
 
 @media screen and (max-width: 1200px) {
 .grid-cols-3 {grid-template-columns: repeat(2, minmax(0, 1fr));}
+.job-desc {
+    margin-bottom: -2em;
+    margin-top: 0em;
+}
+.pill-2 {
+  padding: 5px;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
 }
 
 @media screen and (max-width: 768px) {
