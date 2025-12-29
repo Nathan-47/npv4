@@ -31,6 +31,16 @@ const projects = () => {
                         <p className='project-text text-gray-300'>A quiz for students of Birmingham City University to help provide a clearer idea of what role they fit best in elections season.</p>
                         </div>
                     </Link>
+                    
+                    <Link to="/socquiz">
+                        <div className="project-card transition-opacity duration-300 group-hover:opacity-40 hover:!opacity-100">
+                        <img className="thumbnail" src={sochero} alt="marvel battle game landing page" />
+                        <h2 className='project-title'>Society finder tool</h2>
+                        <p className="pill-2">JavaScript</p>   
+                        <p className="pill-2">JSON</p>
+                        <p className='project-text text-gray-300'>A tool finder that allows students to find a society that matches their interest.</p>
+                        </div>
+                    </Link>
 
                     <Link to="/marvelapi">
                         <div className="project-card transition-opacity duration-300 group-hover:opacity-40 hover:!opacity-100">
@@ -40,16 +50,6 @@ const projects = () => {
                         <p className="pill-2">API</p>
                         <p className='project-text text-gray-300'>A Marvel character search that retrieves character name, bio, and image via API.
                         </p>
-                        </div>
-                    </Link>
-                    
-                    <Link to="/socquiz">
-                        <div className="project-card transition-opacity duration-300 group-hover:opacity-40 hover:!opacity-100">
-                        <img className="thumbnail" src={sochero} alt="marvel battle game landing page" />
-                        <h2 className='project-title'>Society finder tool</h2>
-                        <p className="pill-2">JavaScript</p>   
-                        <p className="pill-2">JSON</p>
-                        <p className='project-text text-gray-300'>A tool finder that allows students to find a society that matches their interest.</p>
                         </div>
                     </Link>
                 </div>
