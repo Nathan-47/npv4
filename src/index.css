@@ -513,3 +513,17 @@ h1 {
 @media screen and (max-width: 600px) {
 .project-btn {width: 100%;}
 }
+
+
+/* blog */
+#blog-ul {
+  padding: 1em;
+  margin: auto;
+}
+
+@media screen and (max-width: 850px) {
+#blog-ul {
+  margin-top: 0px;
+  width: 100% !important;
+}
+}
