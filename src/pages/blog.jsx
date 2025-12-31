@@ -16,7 +16,7 @@ export default function blog() {
               <p className="text-xl font-semibold text-white">{blogData.name}</p>
             </div>
 
-            <p className="text-xl text-white">{blogData.role}</p>
+            <p className="text-xl text-white">{blogData.date}</p>
           </Link>
         ))}
       </ul>
