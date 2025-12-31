@@ -4,7 +4,7 @@ This is the fourth iteration of my portfolio that is accessibile friendly and ea
 
 
 ### Notice
-Blog page will be developed in coming weeks.
+First blog is live! 😎
 
 <br />
 
