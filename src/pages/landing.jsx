@@ -37,7 +37,7 @@ const Landing = () => {
       </div>
 
       <div className="contact-icon">
-      <a href=''><TbFileCv />View Resume</a>
+      <a href='\Nathan_Parchment_CV.pdf' target="_blank" rel="noopener noreferrer"><TbFileCv />View Resume</a>
       </div>
 
 
