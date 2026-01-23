@@ -37,7 +37,7 @@ const projects = () => {
                         <img className="thumbnail" src={sochero} alt="marvel battle game landing page" />
                         <h2 className='project-title'>Society finder tool</h2>
                         <p className="pill-2">JavaScript</p>   
-                        <p className="pill-2">JSON</p>
+                        <p className="pill-2">API</p>
                         <p className='project-text text-gray-300'>A tool finder that allows students to find a society that matches their interest.</p>
                         </div>
                     </Link>
